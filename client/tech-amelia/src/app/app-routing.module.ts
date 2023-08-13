@@ -5,8 +5,11 @@ import { TicketsComponent } from './tickets/tickets.component';
 import { ClientsComponent } from './clients/clients.component';
 import { InvoiceComponent } from './invoice/invoice.component';
 import { LogoutComponent } from './logout/logout.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full'},
+  { path: 'login', component: LoginComponent},
   { path: 'dashboard', component: DashboardComponent},
   { path: 'tickets', component: TicketsComponent},
   { path: 'clients', component: ClientsComponent},
