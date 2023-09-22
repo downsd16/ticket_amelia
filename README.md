@@ -12,3 +12,4 @@ This project uses the MEAN stack:
 MEAN stack applications can be written entirely in JS and TS (optional for Angular), reducing developer overhead and allowing anyone with JS knowledge to dive in.
 
 ## Architecture
+![System Diagram](https://github.com/downsd16/tech_amelia_tickets/blob/main/static/diagram.png)
